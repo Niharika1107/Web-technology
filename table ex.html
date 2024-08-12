@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table example</title>
+    <style>
+        table,th,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            background-color:gray;
+            color: aliceblue;
+        }
+        table{
+            border-spacing:20px;
+        }
+        td,th{
+            padding: 20px;
+        }
+        h1{
+            text-align: center;
+            background-color: black;
+            color: azure;
+        }
+        div{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>DS-3 Timetable</h1>
+    <table>
+        <tr>
+            <th>Day/hr</th>
+            <th>10:00AM TO 11:00AM</th>
+            <th>11:00AM TO 12:00PM</th>
+            <th rowspan="6" style="writing-mode:vertical-rl">LUNCH BREAK</th>
+            <th>1:15PM TO 2.15PM</th>
+            <th>2.15PM TO 3.15PM</th>
+            <th rowspan="6" style="writing-mode: vertical-lr;">BREAK</th>
+            <th>3.45PM TO 4.45PM</th>
+            <th>4.45PM TO 5.45PM</th>
+        </tr>
+        <tr>
+            <div><td>Mon</td></div>
+            <td>EMSME(MOOC)</td>
+            <td>ML(705)</td>
+            <td colspan="2">WT LAB</td>
+            <td>CC</td>
+            <td>PA(MOOC)</td>
+        </tr>
+        <tr>
+           <div><td>Tue</td></div>
+            <td>DAA(704)</td>
+            <td>CC(704)</td>
+            <td colspan="2">CC LAB</td>
+            <td>WT</td>
+            <td>DM<br>MOOC</td>
+        </tr>
+        <tr>
+            <div><td>Wed</td></div>
+            <td>WT</td>
+            <td>ML</td>
+            <td colspan="2">DAA LAB</td>
+            <td>DAA</td>
+            <td>DM(MOOC)</td>
+        </tr>
+        <tr>
+            <div><td>Thu</td></div>
+            <td>PA(MOOC)</td>
+            <td>DM(MOOC)</td>
+            <td colspan="2">ML LAB</td>
+            <td>WT</td>
+            <td><br>EMSME</td></tr>
+        </tr>
+        <tr>
+            <div><td>Fri</td></div>
+            <td>ML</td>
+            <td>CC</td>
+            <td>EMSME(MOOC)</td>
+            <td>DAA</td>
+            <td>PA(MOOC)</td>
+            <td>LIB</td>
+        </tr>
+    </table>
+
+</body>
+</html>

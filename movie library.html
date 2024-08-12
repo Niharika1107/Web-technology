@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table example</title>
+    <style>
+        table td,th,tr{
+           border: 1px solid black;
+            border-spacing:20px;
+            border-collapse:collapse;
+             font-style:italic;
+        }
+        td,th{
+            padding:20px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        h1{
+            text-align: center;
+            background-color:black;
+            color: aliceblue;
+        }
+        body{
+            padding-left: 10%;
+            padding-right:10%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Library</h1>
+    <table>
+        <tr>
+            <th>Movie name</th>
+            <th>Image</th>
+            <th>Director</th>
+            <th>Rating[out of 5]</th>
+            <th>Link</th>
+            <th>Video</th>
+        </tr>
+        <tr>
+            <td>RRR</td>
+            <td><img src="https://www.newdvdreleasedates.com/images/posters/large/rrr-2022-09.jpg" alt="RRR"></td>
+            <td>Rajamouli</td>
+            <td>4/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=d9b7db87ed04ef66JmltdHM9MTcyMjU1NjgwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTMxNg&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=rrr+movie+link&u=a1aHR0cHM6Ly93d3cubW92aWVmb25lLmNvbS9tb3ZpZS9yb3VkcmFtLXJhbmFtLXJ1ZGhpcmFtLzltVjRiMlNyNjNHdjdDY0xBOVJLQzEvd2hlcmUtdG8td2F0Y2gv&ntb=1">openlink</a><br></td>
+            <td><video src="RRR.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>
+        <tr>
+            <td>Guntur Karam</td>
+            <td><img src="https://m.media-amazon.com/images/M/MV5BYWM0YTI2YTUtYmYwYy00M2I3LWFhMDQtNWQwN2QyYzM5YTJlXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_FMjpg_UX1000_.jpg" alt="guntur karam"></td>
+            <td>Trivikram</td>
+            <td>3.7/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=943b5d7f6de60278JmltdHM9MTcyMjU1NjgwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTI1NA&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=guntur+kaaram+movie+link&u=a1aHR0cHM6Ly93d3cuanVzdHdhdGNoLmNvbS9pbi9tb3ZpZS9zc21iLTI4&ntb=1">openlink</a></td>
+            <td><video src="GK.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>  
+        <tr>
+            <td>Hi nanna</td>
+            <td><img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/hi-nanna-et00364503-1701678655.jpg" alt="hi nanna"></td>
+            <td>Shouryuv</td>
+            <td>4.2/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=188c891e886078c0JmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTI0NQ&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=hi+nanna+movie+link&u=a1aHR0cHM6Ly93d3cuanVzdHdhdGNoLmNvbS9pbi9tb3ZpZS9uYW5pMzA&ntb=1">openlink</a></td>
+            <td><video src="hi nanna.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>
+        <tr>
+            <td>kalki</td>
+            <td><img src="https://i.ytimg.com/vi/ezJRIlsCykU/maxresdefault.jpg" alt="kalki"></td>
+            <td>Nag Ashwin</td>
+            <td>3.5/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=455f642a108eab7aJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTI5Mg&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=+kalki+movie+link&u=a1aHR0cHM6Ly93d3cuanVzdHdhdGNoLmNvbS91cy9tb3ZpZS9wcm9qZWN0LWs&ntb=1">openlink</a></td>
+            <td><video src="kalki.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>
+        <tr>
+            <td>Animal</td>
+            <td><img src="https://tse3.mm.bing.net/th?id=OIP.6A-bz94W2OVilQSU2NXehwHaFj&pid=Api&P=0&h=180" alt="animal"></td>
+            <td>Sandeep reddy vanga</td>
+            <td>4.2/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=58dce8b6c86111e8JmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTIzNw&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=+animal+movie+link&u=a1aHR0cHM6Ly93d3cuanVzdHdhdGNoLmNvbS9pbi9tb3ZpZS9hbmltYWwtMjAyMg&ntb=1">openlink</a></td>
+        <td><video src="animal.mp4" controls autoplay muted  height="500px" width="500px" ></video></td>
+        </tr>
+        <tr>
+            <td>BRO</td>
+            <td><img src="https://m.media-amazon.com/images/M/MV5BN2M2ZTM2MzMtZGMzMy00Yzc2LWEwNTUtNTI4OGJiNzYwZTUxXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_FMjpg_UX1000_.jpg" alt="BRO"></td>
+            <td>Samuthirakani</td>
+            <td>4.3/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=26c43cc3a17e2dabJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTIyMw&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=bro+movie+link&u=a1aHR0cHM6Ly93d3cuc29ueWxpdi5jb20vbW92aWVzLy1icm8tMTAwMDE0NjA4Mg&ntb=1">openlink</a></td>
+            <td><video src="BRO.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>
+        <tr>
+            <td>Sita ramam</td>
+            <td><img src="https://www.mirchi9.com/wp-content/uploads/2022/08/Sita-Ramam-Telugu-Movie-Review.jpg" alt="sitharamam"></td>
+            <td>Hanu Raghavapudi</td>
+            <td>4.2/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=ef052297eb57f67eJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTIzMw&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=sitaramam+movie+link&u=a1aHR0cHM6Ly93d3cuaG90c3Rhci5jb20vc2cvbW92aWVzL3NpdGEtcmFtYW0vMTI2MDEyMzUyNg&ntb=1">openlink</a></td>
+            <td><video src="sitaramam.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>
+        <tr>
+            <td>Devil</td>
+            <td><img src="https://m.media-amazon.com/images/M/MV5BYjI5NjFlMGItMWY1NC00YjY3LTgzMmUtYmY5NjBiZGMyNTc1XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_FMjpg_UX1000_.jpg" alt="Devil"></td>
+            <td>Abhishek Nama</td>
+            <td>4.9/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=0aa42e233c0d091bJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZtdS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=devil+movie+link&u=a1aHR0cHM6Ly93d3cuYWlydGVseHN0cmVhbS5pbi9tb3ZpZXMvZGV2aWwvQUhBX01PVklFX0RCQUVEMDI3LTBCMTMtNDhCMS04OUM4LTIyODk2QzI0NEQ2MQ&ntb=1">openlink</a></td>
+             <td><video src="devil.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>
+        <tr>
+            <td>12th fail</td>
+            <td><img src="https://i.ytimg.com/vi/3OcsfLUhAZc/maxresdefault.jpg" alt="12th fail"></td>
+            <td>Vidhi Vinod chopra</td>
+            <td>4.5/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=fb0f7e656f0d19bdJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTIyMw&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=12th+fail+movie+link&u=a1aHR0cHM6Ly93d3cuaG90c3Rhci5jb20vc2cvbW92aWVzLzEydGgtZmFpbC8xMjYwMTYxMjczL3dhdGNoP2RjbGlkPUNJSER6SVRyc2ZNQ0ZZTS1BUW9kdmY0S2Vn&ntb=1">openlink</a></td>
+            <td><video src="12th fail.mp4" controls autoplay muted  height="500px" width="500px"></video></td>
+        </tr>
+        <tr>
+            <td>Virupaksha</td>
+            <td><img src="https://th.bing.com/th/id/OIP.kVqUdXu2yFdSyTtotex56AHaLJ?w=638&h=960&rs=1&pid=ImgDetMain" alt="viru"></td>
+            <td>karthik varma dhandu</td>
+            <td>3.5/5</td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=e3aeea8e2798221fJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0yNTk4YTA4MC0zNjI5LTYyYTctMWEwZS1iMGMyMzc4NDYzYmMmaW5zaWQ9NTIyNw&ptn=3&ver=2&hsh=3&fclid=2598a080-3629-62a7-1a0e-b0c2378463bc&psq=virupaksha+movie+link&u=a1aHR0cHM6Ly93d3cubmV0ZmxpeC5jb20vaW4vdGl0bGUvODE1MDQ0NjE&ntb=1">openlink</a></td>
+            <td><video src="viru.mp4" controls muted autoplay height="500px" width="500px"></video></td>
+        </tr>
+        </table>
+</html> 
